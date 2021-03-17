@@ -1,0 +1,43 @@
+﻿Сборка начата 31.10.2020 17:29:28.
+Уровень детализации журнала: Normal.     1>Проект "D:\Саша\Учёба\3_семестр_2_курс\Языки программирования\Лабораторные работы\Лабораторная работа номер 16\LP_LAB16\LP_LAB16\LP_LAB16.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\LP_LAB16.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt IT.cpp
+         IT.cpp
+     1>D:\Саша\Учёба\3_семестр_2_курс\Языки программирования\Лабораторные работы\Лабораторная работа номер 16\LP_LAB16\LP_LAB16\IT.cpp(78,36): warning C4267: =: преобразование из "size_t" в "unsigned char"; возможна потеря данных
+     1>D:\Саша\Учёба\3_семестр_2_курс\Языки программирования\Лабораторные работы\Лабораторная работа номер 16\LP_LAB16\LP_LAB16\IT.cpp(97,36): warning C4267: =: преобразование из "size_t" в "unsigned char"; возможна потеря данных
+     1>D:\Саша\Учёба\3_семестр_2_курс\Языки программирования\Лабораторные работы\Лабораторная работа номер 16\LP_LAB16\LP_LAB16\IT.cpp(158): warning C4715: IT::IdTable::GetEntry: значение возвращается не при всех путях выполнения
+     1>D:\Саша\Учёба\3_семестр_2_курс\Языки программирования\Лабораторные работы\Лабораторная работа номер 16\LP_LAB16\LP_LAB16\IT.cpp(190): warning C4172: возвращение адреса локальной или временной переменной : buffer
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Саша\Учёба\3_семестр_2_курс\Языки программирования\Лабораторные работы\Лабораторная работа номер 16\LP_LAB16\Debug\LP_LAB16.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:\Саша\Учёба\3_семестр_2_курс\Языки программирования\Лабораторные работы\Лабораторная работа номер 16\LP_LAB16\Debug\LP_LAB16.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Саша\Учёба\3_семестр_2_курс\Языки программирования\Лабораторные работы\Лабораторная работа номер 16\LP_LAB16\Debug\LP_LAB16.lib" /MACHINE:X86 Debug\Error.obj
+         Debug\FST.obj
+         Debug\GRB.obj
+         Debug\In.obj
+         Debug\IT.obj
+         Debug\Log.obj
+         Debug\LP_LAB16.obj
+         Debug\LT.obj
+         Debug\MFST.obj
+         Debug\Parm.obj
+         Debug\PN.obj
+         "Debug\token-division.obj"
+         LP_LAB16.vcxproj -> D:\Саша\Учёба\3_семестр_2_курс\Языки программирования\Лабораторные работы\Лабораторная работа номер 16\LP_LAB16\Debug\LP_LAB16.exe
+       FinalizeBuildStatus:
+         Файл "Debug\LP_LAB16.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\LP_LAB16.tlog\LP_LAB16.lastbuildstate".
+     1>Сборка проекта "D:\Саша\Учёба\3_семестр_2_курс\Языки программирования\Лабораторные работы\Лабораторная работа номер 16\LP_LAB16\LP_LAB16\LP_LAB16.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\Саша\Учёба\3_семестр_2_курс\Языки программирования\Лабораторные работы\Лабораторная работа номер 16\LP_LAB16\LP_LAB16\LP_LAB16.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\Саша\Учёба\3_семестр_2_курс\Языки программирования\Лабораторные работы\Лабораторная работа номер 16\LP_LAB16\LP_LAB16\IT.cpp(78,36): warning C4267: =: преобразование из "size_t" в "unsigned char"; возможна потеря данных
+         D:\Саша\Учёба\3_семестр_2_курс\Языки программирования\Лабораторные работы\Лабораторная работа номер 16\LP_LAB16\LP_LAB16\IT.cpp(97,36): warning C4267: =: преобразование из "size_t" в "unsigned char"; возможна потеря данных
+         D:\Саша\Учёба\3_семестр_2_курс\Языки программирования\Лабораторные работы\Лабораторная работа номер 16\LP_LAB16\LP_LAB16\IT.cpp(158): warning C4715: IT::IdTable::GetEntry: значение возвращается не при всех путях выполнения
+         D:\Саша\Учёба\3_семестр_2_курс\Языки программирования\Лабораторные работы\Лабораторная работа номер 16\LP_LAB16\LP_LAB16\IT.cpp(190): warning C4172: возвращение адреса локальной или временной переменной : buffer
+
+    Предупреждений: 4
+    Ошибок: 0
+
+Прошло времени 00:00:03.81

@@ -1,0 +1,56 @@
+Тест: без ошибок 
+
+----------- ПРОТОКОЛ -----------
+ ----------- 06.10.20 21:12:26 -----------
+ 
+ ----------- ПАРАМЕТРЫ ----------- 
+
+-in: in.txt
+-out: in.txt.out
+-log: in.txt.log
+
+----------- ИСХОДНЫЕ ДАННЫЕ -----------
+1	
+2	((34*3)/3+3*(35*33))-9;
+3	
+4	integer function fi(integer x, integer y)
+5	{
+6	declare integer z;
+7	z= x*(x+y);
+8	return z;
+9	};
+10	string function fs (string a, string b)
+11	{
+12	string c                 ; 
+13	declare string function substr(string a, integer p,
+14	 integer n);
+15	c = substr(a, 1,3)+ substr(a, 1,3) +  b +  substr(a, 1,3);
+16	return c;
+17	};
+18	
+19	
+20	main
+21	{
+22	declare integer x;
+23	declare integer y;
+24	declare integer z;
+25	declare string sa;
+26	declare string sb;
+27	declare string sc;
+28	declare integer function strlen(string p);
+29	x = 1;
+30	y = 5;
+31	sa = '1234567890';
+32	sb = '1234567890';
+33	z = fi(x,y);
+34	sc = fs(sa,sb);
+35	print 'контр          ольный пр   имер';
+36	print z;
+37	4
+38	print sc;
+39	return 0;
+40	};
+
+Всего символов: 642
+Всего строк: 40
+Пропущено: 0

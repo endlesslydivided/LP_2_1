@@ -1,0 +1,53 @@
+Тест: без ошибок 
+
+----------- ПРОТОКОЛ -----------
+ ----------- 06.11.20 11:59:13 -----------
+ 
+ ----------- ПАРАМЕТРЫ ----------- 
+
+-in: in.txt
+-out: in.txt.out
+-log: in.txt.log
+
+----------- ИСХОДНЫЕ ДАННЫЕ -----------
+1	
+2	integer function fi(integer x, integer y)
+3	{
+4	declare integer z;
+5	z=(y*45)+234/(x*(x+y)) * 34/45;
+6	return z;
+7	};
+8	string function fs (string a, string b)
+9	{
+10	declare string c                 ; 
+11	declare string function substr(string a, integer p,
+12	 integer n);
+13	c = substr(a, 1,3)+ b;
+14	return c;
+15	};
+16	
+17	
+18	main
+19	{
+20	declare integer x;
+21	declare integer y;
+22	declare integer z;
+23	declare string sa;
+24	declare string sb;
+25	declare string sc;
+26	declare integer function strlen(string p);
+27	x = 1;
+28	y = 5;
+29	sa = '1234567890';
+30	sb = '1234567890';
+31	z = fi();
+32	sc = fs(sa,sb);
+33	print 'контр          ольный пр   имер';
+34	print z;
+35	print sc;
+36	return 0;
+37	};
+
+Всего символов: 604
+Всего строк: 37
+Пропущено: 0
